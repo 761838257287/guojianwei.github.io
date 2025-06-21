@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站 - 首页</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+ <body>
+    <!-- 页眉区 -->
+    <header>
+        <div class="container">
+            <!-- 新增 Logo 图片 -->
+            <img src="images/Logo.jpg" alt="网站Logo" class="logo">
+            <h1>个人主页</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">首页</a ></li>
+                    <li><a href="pages/about.html">关于我</a ></li>
+                    <li><a href="pages/resume.html">个人简历</a ></li>
+                    <li><a href="pages/hobbies.html">兴趣爱好</a ></li>
+                    <li><a href="pages/gallery.html">相册</a ></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 主体内容区和边栏导航区 -->
+    <div class="main-wrapper">
+        <main>
+            <section>
+                <h2>欢迎来到我的个人主页</h2>
+                <div class="image-placeholder">
+                    <img src="images/profile.jpg"alt="个人主页封面图">
+                </div>
+                <p>
+                    这里是我的个人在线空间，您可以在这里了解我的背景、技能、兴趣以及一些生活中的精彩瞬间。
+                    我很高兴能与您分享我的故事和作品。
+                </p >
+                <p>
+                    探索不同页面，发现更多关于我的信息。如果您有任何问题或想联系我，请随时使用下方的联系表单。
+                </p >
+            </section>
+
+            <section>
+                <h3>给我留言</h3>
+                <form action="#" method="post">
+                    <label for="name">姓名:</label>
+                    <input type="text" id="name" name="user_name" required>
+
+                    <label for="email">邮箱:</label>
+                    <input type="email" id="email" name="user_email" required>
+
+                    <label for="message">留言:</label>
+                    <textarea id="message" name="user_message" rows="5" required></textarea>
+
+                    <button type="submit">发送</button>
+                </form>
+            </section>
+        </main>
+
+        <!-- 边栏导航区 -->
+        <aside>
+            <h3>快速导航</h3>
+            <nav>
+                <ul>
+                    <li><a href="pages/about.html">深入了解我</a ></li>
+                    <li><a href="pages/resume.html">我的专业技能</a ></li>
+                    <li><a href="pages/hobbies.html">我的闲暇时光</a ></li>
+                    <li><a href="pages/gallery.html">我的生活瞬间</a ></li>
+                </ul>
+            </nav>
+            </nav>
+            <section style="margin-top: 30px;">
+                <h3>联系方式</h3>
+                <p>邮箱: g1795367387@163.com</p >
+                <p>电话: 13080608026</p >
+                <p>QQ:1795367387
+                <p>社交媒体: <a href="#">QQ</a > | <a href="#">GitHub</a ></p >
+            </section>
+        </aside>
+    </div>
+
+    <!-- 页脚区 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 [guojianwei]. All rights reserved.</p >
+        </div>
+    </footer>
+</body>
+</html>
